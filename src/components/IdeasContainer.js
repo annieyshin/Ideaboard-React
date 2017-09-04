@@ -62,7 +62,8 @@ enableEditing = (id) => {
           titleRef={input => this.title = input}
           resetNotification={this.resetNotification} />)
           } else {
-            return (<Idea idea={idea} key={idea.id} onClick={this.enableEditing} />)
+            return (<Idea idea={idea} key={idea.id} onClick={this.enableEditing}
+            onClick={this.deleteIdea} />)
           }
         })}
       </div>
