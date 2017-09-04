@@ -10,6 +10,7 @@
   float: left;
   font-size: 11px;
   text-align: center;
+  box-shadow: 2px 2px 2px 2px grey;
 }
 
 
@@ -35,4 +36,23 @@
   margin-right: 10px;
   margin-left: 10px;
   padding: 10px;
+}
+
+.input{
+  border: 0;
+  background: none;
+  outline: none;
+  margin-top: 10px;
+  width: 140px;
+  font-size: 11px;
+}
+
+.input:focus{
+  border: solid 1px lightgrey;
+}
+
+textarea {
+  resize: none;
+  height: 90px;
+  font-size: 11px;
 }
